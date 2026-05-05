@@ -2,7 +2,7 @@ import openai
 import os
 from HRdata import roles_context, employee_context
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "Your Key"
 
 def summary(messages):
     client = openai.OpenAI()
