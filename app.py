@@ -9,7 +9,7 @@ if "employee" not in st.session_state:
 if "weekly_updates" not in st.session_state:
     st.session_state.weekly_updates = []
 
-client = anthropic.Anthropic(api_key="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")
+client = anthropic.Anthropic(api_key="Your Key")
 
 
 # --------- setup page ----------
